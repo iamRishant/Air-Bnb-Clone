@@ -11,3 +11,23 @@ body{
   padding: 15px 25px;
   box-shadow: 0 5px 5px rgb(237, 233, 233);
 }
+
+.Hero--img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.Hero--content{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 350px;
+  max-width: 100%;
+  font-size: 1.5rem;
+
+}
+.Hero--content > p{
+  width: 50%;
+  line-height: 1.2;
+}
